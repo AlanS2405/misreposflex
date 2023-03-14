@@ -1,0 +1,92 @@
+.padre__fd {
+    background-color: lightseagreen;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+}
+
+.padre__fd .hijo {
+    background-color: lightblue;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.padre__fw {
+    background-color: lightseagreen;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+}
+
+.padre__fw .hijo {
+    width: 100px;
+    background-color: lightblue;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.padre__fja {
+    background-color: lightseagreen;
+    height: 500px;
+    display: flex;
+    /* justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around; */
+    justify-content: center;
+
+    align-items:center;
+    /* align-items:flex-start;
+    align-items:flex-end; */
+}
+
+.padre__fja .hijo {
+    width: 100px;
+    background-color: lightblue;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
+.padre__fc {
+    background-color: lightseagreen;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.padre__fc .hijo {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
+.padre__as {
+    background-color: lightseagreen;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre__as .hijo {
+    width: 200px;
+    background-color: lightblue;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.padre__as .hijo:nth-child(1) {
+    align-self: baseline;
+}
